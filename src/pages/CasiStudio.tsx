@@ -198,7 +198,7 @@ function CasiStudio() {
               <img
                 src={caseStudy.image}
                 alt={caseStudy.title}
-                className="w-full h-48 object-contain bg-white p-4 rounded-t-lg article-cover"
+                className="w-full h-48 object-contain bg-white p-4 rounded-t-lg mx-auto"
               />
               <div className="p-6">
                 <div className="flex items-center text-sm text-gray-400 mb-4">

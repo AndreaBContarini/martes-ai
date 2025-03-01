@@ -95,7 +95,7 @@ function Blog() {
                 <img
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-48 object-cover article-cover"
+                  className="w-full h-48 object-cover article-cover mx-auto"
                   loading="lazy"
                 />
               </div>
@@ -128,7 +128,7 @@ function Blog() {
                 : 'bg-[#274f36] hover:bg-[#1a3524]'
             } transition-colors`}
           >
-            &lt;
+            Precedente
           </button>
           
           {Array.from({ length: totalPages }, (_, i) => i + 1).map(pageNum => (
@@ -160,7 +160,7 @@ function Blog() {
                 : 'bg-[#274f36] hover:bg-[#1a3524]'
             } transition-colors`}
           >
-            &gt;
+            Successivo
           </button>
         </div>
       </div>

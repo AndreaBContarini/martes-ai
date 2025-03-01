@@ -133,52 +133,79 @@ const cases = {
     title: "Generazione di Lead Qualificati via LinkedIn",
     date: "31 gennaio 2025",
     content: `
-      <div class="aspect-w-16 aspect-h-9 mb-8">
-        <img 
-          src="https://i.ibb.co/7J3hBFy/fantozzi2-removebg-preview.png" 
-          alt="Fantozzi & Associati"
-          class="w-full h-[400px] object-contain bg-white rounded-lg"
-        />
-      </div>
+      <iframe 
+          src="https://www.youtube.com/embed/30iApbt6wMo" 
+          title="Fantozzi Case Study"
+          class="w-full h-[400px]"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+         <style>
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 80%;
+        }
+    </style>
 
-      <h2 class="text-3xl font-bold mt-8 mb-4">Case Study: Fantozzi & Associati</h2>
-      
-      <p class="mb-4">
-        In questo caso studio, esploreremo come abbiamo aiutato Fantozzi & Associati 
-        a generare lead qualificati attraverso LinkedIn utilizzando strategie avanzate 
-        di automazione e AI.
-      </p>
-
-      <h3 class="text-2xl font-bold mt-8 mb-4">La Sfida</h3>
-      <p>
-        Fantozzi & Associati cercava di espandere la propria base clienti nel settore 
-        della consulenza fiscale, ma trovava difficoltà nel raggiungere il giusto 
-        pubblico su LinkedIn.
-      </p>
-
-      <h3 class="text-2xl font-bold mt-8 mb-4">La Soluzione</h3>
-      <ul class="list-disc pl-6 mt-4 mb-4">
-        <li>Implementazione di un sistema automatizzato per l'identificazione dei potenziali clienti</li>
-        <li>Creazione di un chatbot AI per la qualificazione iniziale dei lead</li>
-        <li>Sviluppo di una strategia di content marketing personalizzata</li>
-      </ul>
-
-      <h3 class="text-2xl font-bold mt-8 mb-4">I Risultati</h3>
-      <ul class="list-disc pl-6 mt-4 mb-4">
-        <li>Aumento del 300% nel numero di lead qualificati mensili</li>
-        <li>Riduzione del 60% del tempo dedicato alla prospecting</li>
-        <li>ROI positivo già dal primo mese di implementazione</li>
-      </ul>
-
-      <div class="bg-black/20 p-6 rounded-lg mt-8">
-        <p class="font-semibold mb-4">Testimonianza del Cliente:</p>
-        <blockquote class="italic">
-          "L'implementazione del sistema di lead generation automatizzato ha 
-          trasformato completamente il nostro approccio all'acquisizione clienti. 
-          I risultati hanno superato ogni nostra aspettativa."
-        </blockquote>
-        <p class="mt-4">- Marco Fantozzi, CEO</p>
-      </div>
+      <h2>Il Contesto: Il Problema dei Professionisti nel Generare Lead</h2>
+    <p>Molti liberi professionisti si affidano al passaparola per attrarre nuovi clienti, trovando difficile utilizzare piattaforme come LinkedIn per trovare lead qualificati. Le obiezioni comuni includono:</p>
+    <ul>
+        <li>La difficoltà di convertire sconosciuti in clienti.</li>
+        <li>Il tempo necessario per creare contenuti di qualità.</li>
+        <li>La diffidenza verso contatti non personali.</li>
+    </ul>
+    <p>Noi abbiamo deciso di accettare la sfida, implementando un metodo completamente automatizzato per la lead generation su LinkedIn.</p>
+    <img src="/src/images/dripify1.pmg.png" alt="Automazione con Dripify" width="350">
+    
+    <h2>Il Progetto: Personal Branding, Automazione e Lead Generation</h2>
+    
+    <h2>Fase 1: Costruzione del Personal Brand</h2>
+    <p>Il primo passo è stato creare una presenza digitale forte e professionale per l'avvocato. Ecco le azioni intraprese:</p>
+    <ul>
+        <li><strong>Sito personale:</strong> Una landing page informativa con recensioni di clienti, un blog per articoli e una sezione news per aggiornamenti fiscali.</li>
+        <li><strong>Obiettivo:</strong> Rafforzare l'immagine di autorità nel settore, comunicando competenza e affidabilità.</li>
+    </ul>
+    
+    <h2>Fase 2: Automazione dei Contenuti</h2>
+    <p>Per mantenere attivo il profilo LinkedIn, è stato costruito uno scenario Make per automatizzare la pubblicazione dei contenuti:</p>
+    <ul>
+        <li>Gli articoli e le notizie rilevanti del settore vengono recuperati automaticamente.</li>
+        <li>Vengono riassunti e formattati utilizzando GPT.</li>
+        <li>I post vengono approvati dal cliente e pubblicati ogni 10 giorni, mantenendo il profilo sempre aggiornato e professionale.</li>
+    </ul>
+    <img src="/src/images/make1.png" alt="Scenario Make per Automazione" className="mx-auto w-48">
+    
+    <h2>Fase 3: Lead Generation Automatizzata</h2>
+    <p>Per la fase di lead generation, abbiamo utilizzato Dripify, uno strumento per automatizzare:</p>
+    <ul>
+        <li>Richieste di connessione su LinkedIn.</li>
+        <li>Invio di messaggi personalizzati.</li>
+        <li>Follow-up automatici.</li>
+    </ul>
+    <p>Un lead magnet personalizzato – un video – è stato inviato ai contatti che accettavano la connessione.</p>
+    <p>Per ogni cliente interessato che rispondeva, lo si è registrato in un Google Sheet, con notifiche via email per aggiornare il team in tempo reale.</p>
+    <img src="/src/images/make2.png" alt="Scenario Make per Lead Generation" width="380">
+    
+    <h2>I Risultati: Successo Misurabile in Pochi Giorni</h2>
+    <ul>
+        <li><strong>Tasso di richieste di connessioni accettate:</strong> 37,8%.</li>
+        <li><strong>Tasso di risposta al messaggio "a freddo":</strong> 13,5%.</li>
+    </ul>
+    <p>Ogni interazione è stata registrata in modo chiaro, distinguendo tra lead non interessati, lead da ricontattare e lead chiusi. Dopo soli otto giorni siamo stati in grado di organizzare 3 chiamate, confermando l'efficacia del metodo. Un lead di questi tre si è effettivamente trasformato in cliente.</p>
+    
+    <h2>Lezioni Apprese: Come Replicare il Processo</h2>
+    <ul>
+        <li><strong>Automazione intelligente:</strong> Ridurre al minimo il tempo necessario per creare e pubblicare contenuti.</li>
+        <li><strong>Personalizzazione:</strong> Offrire lead magnet mirati e curare ogni messaggio per aumentare le possibilità di risposta.</li>
+        <li><strong>Rispetto dei limiti di LinkedIn:</strong> Conoscere e rispettare i limiti di connessioni e messaggi per evitare penalizzazioni.</li>
+        <li><strong>Monitoraggio dei risultati:</strong> Utilizzare strumenti come Google Sheet per organizzare e tracciare i lead.</li>
+    </ul>
+    
+    <h2>Conclusioni</h2>
+    <p>Questo caso studio mostra che con un mix di automazione, intelligenza artificiale e strategia mirata, anche un professionista in settori tradizionali come il diritto tributario può trasformare LinkedIn in una risorsa potente per generare nuovi clienti.</p>
+    
     `
   },
   'custom-gpt-email': {
@@ -195,65 +222,68 @@ const cases = {
           allowfullscreen>
         </iframe>
       </div>
-      <h2>Introduzione</h2>
-<p>Nel contesto aziendale moderno, la gestione della casella email rappresenta un'attività cruciale ma spesso dispendiosa in termini di tempo. Noi abbiamo sviluppato una soluzione innovativa per un cliente che necessitava di automatizzare la gestione della propria casella email ed anche di ottenere rapidamente le ultime news dal "fronte AI", per rimanere costantemente informato.</p>
-<p>Questo caso studio illustra il problema iniziale, la soluzione implementata e i risultati ottenuti. Tratteremo - per brevità - solo la soluzione del GPT per l'automazione delle risposte mail.</p>
-
-<h2>Il Problema</h2>
-<ul>
-    <li>Elevato numero di email non lette o senza risposta.</li>
-    <li>Difficoltà nel gestire le email in base alla priorità.</li>
-    <li>Necessità di <strong>risposte personalizzate</strong> in base al contesto del messaggio.</li>
-</ul>
-
-<h2>La Soluzione Implementata</h2>
-<p>Per risolvere questo problema, Martes AI ha sviluppato un GPT personalizzato e lo ha integrato con strumenti di automazione come <em>Make</em> e <em>Zapier</em>. Il sistema è stato progettato per gestire automaticamente le email attraverso due scenari principali:</p>
-
-<h3>1. Organizzazione delle Email</h3>
-<ul>
-    <li>Soggetto</li>
-    <li>Indirizzo email del mittente</li>
-    <li>Nome del mittente</li>
-    <li>Stato dell'email (risposta inviata o meno)</li>
-</ul>
-
-<h3>2. Automazione della Risposta</h3>
-<p>Il GPT analizza le email con stato "non risposta" e genera automaticamente tre possibili risposte:</p>
-<ul>
-    <li><strong>Informale</strong>: per conversazioni casuali o personali.</li>
-    <li><strong>Tecnica</strong>: per domande specifiche o richieste di informazioni dettagliate.</li>
-    <li><strong>Ironica</strong>: per uno stile comunicativo più leggero e coinvolgente.</li>
-</ul>
-<p>L'utente seleziona la risposta più adeguata e il GPT invia l'email tramite Zapier, aggiornando lo stato nel database.</p>
-
-<h2>Processo Tecnico</h2>
-<ol>
-    <li><strong>Creazione di un webhook</strong> su Make o Zapier per gestire la connessione tra il GPT e gli altri strumenti.</li>
-    <li><strong>Definizione dello schema JSON</strong> per strutturare i dati delle email in ingresso e in uscita.</li>
-    <li><strong>Integrazione del GPT con il webhook</strong> per automatizzare il recupero e l'invio delle risposte.</li>
-    <li><strong>Ottimizzazione del prompt</strong> per assicurare risposte contestualmente corrette e senza errori.</li>
-</ol>
-
-<h2>Risultati Ottenuti</h2>
-<ul>
-    <li><strong>Riduzione del tempo di gestione email</strong> grazie all'automazione.</li>
-    <li><strong>Incremento del tasso di risposta</strong>, evitando la perdita di comunicazioni importanti.</li>
-    <li><strong>Miglioramento della qualità delle risposte</strong>, adattate in base al tono e al contesto della conversazione.</li>
-    <li><strong>Aggiornamento automatico dello stato delle email</strong>, garantendo un migliore monitoraggio delle comunicazioni.</li>
-</ul>
-
-<h2>Lezioni Apprese</h2>
-<ol>
-    <li><strong>Strutturare correttamente i prompt</strong>: definire con precisione ruolo, contesto, obiettivi e regole per evitare risposte imprecise o fuori tema.</li>
-    <li><strong>Utilizzare il meta-prompting</strong>: iterare tra più finestre GPT per ottimizzare i risultati generati.</li>
-    <li><strong>Automatizzare con webhook</strong>: integrare il GPT con strumenti di automazione per semplificare la gestione dei dati.</li>
-    <li><strong>Personalizzare le risposte</strong>: offrire alternative di risposta per adattarsi al tono richiesto dal cliente.</li>
-</ol>
-
-<h2>Conclusione</h2>
-<p>L'implementazione di un GPT per la gestione della casella email ha permesso al cliente di ottimizzare il proprio tempo e migliorare l'efficienza delle comunicazioni. Questo caso studio dimostra come l'uso strategico dell'intelligenza artificiale possa trasformare un'attività quotidiana in un processo automatizzato e altamente efficiente.</p>
-<p>Grazie alla combinazione di GPT, <em>Make</em> e <em>Zapier</em>, è possibile replicare questo modello per altre attività aziendali, aumentando la produttività e riducendo il carico di lavoro manuale.</p>
-    `
+    <h2>Introduzione</h2>
+    <p>Nel contesto aziendale moderno, la gestione della casella email rappresenta un'attività cruciale ma spesso dispendiosa in termini di tempo. Noi abbiamo sviluppato una soluzione innovativa per un cliente che necessitava di automatizzare la gestione della propria casella email ed anche di ottenere rapidamente le ultime news dal "fronte AI", per rimanere costantemente informato.</p>
+    <p>Questo caso studio illustra il problema iniziale, la soluzione implementata e i risultati ottenuti. Tratteremo - per brevità - solo la soluzione del GPT per l'automazione delle risposte mail.</p>
+    
+    <h2>Il Problema</h2>
+    <p>Il cliente, un professionista con un alto volume di email giornaliere, aveva difficoltà nel rispondere tempestivamente ai messaggi, con il rischio di perdere opportunità di business. Le principali sfide includevano:</p>
+    <ul>
+        <li>Elevato numero di email non lette o senza risposta.</li>
+        <li>Difficoltà nel gestire le email in base alla priorità.</li>
+        <li>Necessità di <strong>risposte personalizzate</strong> in base al contesto del messaggio.</li>
+    </ul>
+    
+    <h2>La Soluzione Implementata</h2>
+    <p>Per risolvere questo problema, Martes AI ha sviluppato un GPT personalizzato e lo ha integrato con strumenti di automazione come <em>Make</em> e <em>Zapier</em>. Il sistema è stato progettato per gestire automaticamente le email attraverso due scenari principali:</p>
+    
+    <h3>1. Organizzazione delle Email</h3>
+    <p>Il GPT riceve tutte le email in arrivo e le memorizza in un database con le seguenti informazioni:</p>
+    <ul>
+        <li>Soggetto</li>
+        <li>Indirizzo email del mittente</li>
+        <li>Nome del mittente</li>
+        <li>Stato dell'email (risposta inviata o meno)</li>
+    </ul>
+    
+    <h3>2. Automazione della Risposta</h3>
+    <p>Il GPT analizza le email con stato "non risposta" e genera automaticamente tre possibili risposte:</p>
+    <ul>
+        <li><strong>Informale</strong>: per conversazioni casuali o personali.</li>
+        <li><strong>Tecnica</strong>: per domande specifiche o richieste di informazioni dettagliate.</li>
+        <li><strong>Ironica</strong>: per uno stile comunicativo più leggero e coinvolgente.</li>
+    </ul>
+    <p>L'utente seleziona la risposta più adeguata e il GPT invia l'email tramite Zapier, aggiornando lo stato nel database.</p>
+    
+    <h2>Processo Tecnico</h2>
+    <p>La soluzione è stata sviluppata seguendo un metodo strutturato:</p>
+    <ol>
+        <li><strong>Creazione di un webhook</strong> su Make o Zapier per gestire la connessione tra il GPT e gli altri strumenti.</li>
+        <li><strong>Definizione dello schema JSON</strong> per strutturare i dati delle email in ingresso e in uscita.</li>
+        <li><strong>Integrazione del GPT con il webhook</strong> per automatizzare il recupero e l'invio delle risposte.</li>
+        <li><strong>Ottimizzazione del prompt</strong> per assicurare risposte contestualmente corrette e senza errori.</li>
+    </ol>
+    
+    <h2>Risultati Ottenuti</h2>
+    <p>Dopo l'implementazione, il cliente ha ottenuto miglioramenti significativi:</p>
+    <ul>
+        <li><strong>Riduzione del tempo di gestione email</strong> grazie all'automazione.</li>
+        <li><strong>Incremento del tasso di risposta</strong>, evitando la perdita di comunicazioni importanti.</li>
+        <li><strong>Miglioramento della qualità delle risposte</strong>, adattate in base al tono e al contesto della conversazione.</li>
+        <li><strong>Aggiornamento automatico dello stato delle email</strong>, garantendo un migliore monitoraggio delle comunicazioni.</li>
+    </ul>
+    
+    <p>Durante l'implementazione del progetto sono emerse alcune best practice utili per la creazione di GPT aziendali:</p>
+    <ol>
+        <li><strong>Strutturare correttamente i prompt</strong>: definire con precisione ruolo, contesto, obiettivi e regole per evitare risposte imprecise o fuori tema.</li>
+        <li><strong>Utilizzare il meta-prompting</strong>: iterare tra più finestre GPT per ottimizzare i risultati generati.</li>
+        <li><strong>Automatizzare con webhook</strong>: integrare il GPT con strumenti di automazione per semplificare la gestione dei dati.</li>
+        <li><strong>Personalizzare le risposte</strong>: offrire alternative di risposta per adattarsi al tono richiesto dal cliente.</li>
+    </ol>
+    
+    <h2>Conclusione</h2>
+    <p>L'implementazione di un GPT per la gestione della casella email ha permesso al cliente di ottimizzare il proprio tempo e migliorare l'efficienza delle comunicazioni. Questo caso studio dimostra come l'uso strategico dell'intelligenza artificiale possa trasformare un'attività quotidiana in un processo automatizzato e altamente efficiente.</p>
+    <p>Grazie alla combinazione di GPT, <em>Make</em> e <em>Zapier</em>, è possibile replicare questo modello per altre attività aziendali, aumentando la produttività e riducendo il carico di lavoro manuale.</p>  `
   },
 };
 
