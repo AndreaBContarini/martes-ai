@@ -95,7 +95,7 @@ function Blog() {
                 <img
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-48 object-cover article-cover mx-auto"
+                  className="w-full h-48 object-cover article-cover mx-auto grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer"
                   loading="lazy"
                 />
               </div>

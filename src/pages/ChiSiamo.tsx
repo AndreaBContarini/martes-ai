@@ -119,9 +119,8 @@ function ChiSiamo() {
               />
             </div>
             <h2 className="text-3xl font-bold mb-2">Riccardo</h2>
-            <p className="text-gray-300 mb-4">
-              Ingegnere informatico
-            </p>
+            <p className="text-gray-300 mb-4"> Ingegnere informatico</p>
+            <p className="text-gray-300 mb-4">Founder</p>
             <p className="text-[#274f36] mb-6 font-bold">riccardo@martes-ai.com</p>
             <SocialLinks person="riccardo" />
           </div>
@@ -137,6 +136,7 @@ function ChiSiamo() {
             </div>
             <h2 className="text-3xl font-bold mb-2">Andrea</h2>
             <p className="text-gray-300 mb-4">Fisico</p>
+            <p className="text-gray-300 mb-4">Co-Founder</p>
             <p className="text-[#274f36] mb-6 font-bold">andrea@martes-ai.com</p>
             <SocialLinks person="andrea" />
           </div>
