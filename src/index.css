@@ -301,3 +301,9 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(39, 79, 54, 0.2);
 }
+
+@media (hover: none) {
+  .article-cover:active {
+    filter: grayscale(0);
+  }
+}
