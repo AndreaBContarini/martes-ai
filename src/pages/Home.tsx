@@ -14,7 +14,7 @@ function Home() {
         <meta name="keywords" content="intelligenza artificiale, AI, automazione, business, chatbot, machine learning, digital transformation" />
         <meta property="og:title" content="Martes AI - Soluzioni AI per il Business" />
         <meta property="og:description" content="Scopri come l'intelligenza artificiale può trasformare il tuo business con Martes AI." />
-        <meta property="og:image" content="/path/to/your/image.jpg" />
+        <meta property="og:image" content="../src/images/logo.png" />
         <link rel="canonical" href="https://www.martes-ai.com" />
       </Helmet>
       <div className="flex flex-col items-center w-full">
