@@ -193,12 +193,12 @@ function CasiStudio() {
               key={caseStudy.id}
               to={`/casi-studio/${caseStudy.id}`}
               onClick={scrollToTop}
-              className="bg-black/30 rounded-lg overflow-hidden hover:bg-black/40 transition-colors"
+              className="bg-black/30 rounded-lg overflow-hidden hover:bg-black/40 transition-transform transform hover:scale-105 duration-300"
             >
               <img
                 src={caseStudy.image}
                 alt={caseStudy.title}
-                className="w-full h-48 object-contain bg-white p-4 rounded-t-lg mx-auto"
+                className="w-full h-48 object-contain article-cover grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer bg-white p-4 rounded-t-lg mx-auto"
               />
               <div className="p-6">
                 <div className="flex items-center text-sm text-gray-400 mb-4">
