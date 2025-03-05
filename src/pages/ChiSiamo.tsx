@@ -226,41 +226,51 @@ function ChiSiamo() {
                   <input
                     type="radio"
                     name="budget"
-                    value="800-1200"
+                    value="1200-1800"
                     className="mr-2"
                     onChange={handleChange}
                   />
-                  800€ - 1200€
+                  1200€ - 1800€
                 </label>
                 <label className="flex items-center">
                   <input
                     type="radio"
                     name="budget"
-                    value="1200-3000"
+                    value="1800-2500"
                     className="mr-2"
                     onChange={handleChange}
                   />
-                  1200€ - 3000€
+                  1.800€ - 2.500€
                 </label>
                 <label className="flex items-center">
                   <input
                     type="radio"
                     name="budget"
-                    value="3000-5000"
+                    value="2500-5000"
                     className="mr-2"
                     onChange={handleChange}
                   />
-                  3000€ - 5000€
+                  2.500€ - 5.000€
                 </label>
                 <label className="flex items-center">
                   <input
                     type="radio"
                     name="budget"
-                    value=">5000"
+                    value="5000-10000"
                     className="mr-2"
                     onChange={handleChange}
                   />
-                  Più di 5000€
+                  5.000€ - 10.000€
+                </label>
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="budget"
+                    value=">10000"
+                    className="mr-2"
+                    onChange={handleChange}
+                  />
+                  Più di 10.000€
                 </label>
               </div>
             </div>
