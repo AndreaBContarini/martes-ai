@@ -14,7 +14,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/',
+  base: '/martes-ai/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
