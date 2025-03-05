@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -17,7 +16,7 @@ import { HelmetProvider } from 'react-helmet-async';
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename="/">
         <div className="min-h-screen bg-gradient-to-b from-black via-black to-[#274f36] text-white">
           <Navbar />
           <Routes>
