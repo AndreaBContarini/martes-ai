@@ -4,7 +4,6 @@ import compression from 'vite-plugin-compression';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/martes-ai/', //  Indispensabile per GitHub Pages
   plugins: [
     react(),
     compression({
@@ -15,7 +14,10 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/',
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
     rollupOptions: {
       output: {
         manualChunks: {
